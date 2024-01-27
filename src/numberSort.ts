@@ -10,4 +10,8 @@
 
 export function sortNumbers(numbers: number[]): number[] {
   // 在此實現函式
+  const newArray = numbers.sort((a, b) => {
+    return a - b
+  })
+  return newArray
 }
